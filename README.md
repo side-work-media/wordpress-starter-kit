@@ -8,8 +8,8 @@
 [Feature branch workflow]: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 [pull request]: https://github.com/side-work-media/wordpress-starter-kit/pulls
 [Christopher Dierkens]: mailto:cjdierkens@gmail.com
-[zip]: https://github.com/side-work-media/wordpress-starter-kit/archive/master.zip
-[tar.gz]: https://github.com/side-work-media/wordpress-starter-kit/archive/master.zip
+[zip]: https://github.com/side-work-media/wordpress-starter-kit/archive/1.0.1.zip
+[tar.gz]: https://github.com/side-work-media/wordpress-starter-kit/archive/1.0.1.tar.gz
 
 # Wordpress Starter Kit
 
@@ -27,8 +27,8 @@ For Linux environments you will need to install [Docker] and [Docker Compose] se
 
 Download the starter kit.
 ```
-curl -L https://github.com/side-work-media/wordpress-starter-kit/archive/master.tar.gz | tar zx
-cd wordpress-starter-kit-master/
+curl -L https://github.com/side-work-media/wordpress-starter-kit/archive/1.0.1.tar.gz | tar zx
+cd wordpress-starter-kit-1.0.1/
 ```
 
 Create and start the Docker services.
@@ -42,7 +42,7 @@ Open the WordPress site in your default browser.
 open http://$(docker-machine ip default):8000/
 ```
 
-## Development
+### Development
 Use this starter kit to jump start a new WordPress website repository. Download the starter kit as a [zip] or a [tar.gz] and unpack into a new directory.
 
 Initialize a new git repo.
