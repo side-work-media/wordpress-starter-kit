@@ -4,6 +4,7 @@
 [Docker Toolbox]: https://www.docker.com/products/docker-toolbox
 [Docker Installation Guide]: https://docs.docker.com/compose/install/
 [WordPress]: https://codex.wordpress.org/
+[WordPress Theme Development]: https://codex.wordpress.org/Theme_Development
 
 # Wordpress Starter Kit
 
@@ -34,11 +35,12 @@ docker-compose start
 Open the WordPress site in your default browser.
 ```
 open http://$(docker-machine ip default):8000/
-
-
 ```
 
-## Contributing
+## Development
+
+Read the [WordPress Theme Development] guide and get hacking. Our theme is called SideWorkMedia and is located in `wordpress/wp-content/themes/sideworkmedia`.
+
 
 
 
