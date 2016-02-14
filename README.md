@@ -5,6 +5,11 @@
 [Docker Installation Guide]: https://docs.docker.com/compose/install/
 [WordPress]: https://codex.wordpress.org/
 [WordPress Theme Development]: https://codex.wordpress.org/Theme_Development
+[Feature branch workflow]: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+[pull request]: https://github.com/side-work-media/wordpress-starter-kit/pulls
+[Christopher Dierkens]: mailto:cjdierkens@gmail.com
+[zip]: https://github.com/side-work-media/wordpress-starter-kit/archive/master.zip
+[tar.gz]: https://github.com/side-work-media/wordpress-starter-kit/archive/master.zip
 
 # Wordpress Starter Kit
 
@@ -38,9 +43,36 @@ open http://$(docker-machine ip default):8000/
 ```
 
 ## Development
+Use this starter kit to jump start a new WordPress website repository. Download the starter kit as a [zip] or a [tar.gz] and unpack into a new directory.
 
-Read the [WordPress Theme Development] guide and get hacking. Our theme is called SideWorkMedia and is located in `wordpress/wp-content/themes/sideworkmedia`.
+Initialize a new git repo.
+```
+cd UNPACKEDDIRECTORY/
+git init
+git add .
+git commit -m 'Initial Commit'
+git remote add origin https://github.com/USERNAME/OTHERREPOSITORY.git
+git push -u origin master
+```
 
+From here it's up to you to manage your theme changes.
 
+> Read the [WordPress Theme Development] guide and get hacking. Our theme is called SideWorkMedia and is located in `wordpress/wp-content/themes/sideworkmedia`.
 
+## Contribute
 
+1. Checkout a feature branch.
+
+	```
+	git checkout -b '#1-issue-feature-or-enhancement-name' // Issue number + meaningful name
+	```
+	> Please create a ticket if one doesn't exist for the changes you are making.
+1. Make changes to your feature branch.
+	> Read the [WordPress Theme Development] guide and get hacking. Our theme is called SideWorkMedia and is located in `wordpress/wp-content/themes/sideworkmedia`.
+
+1. Commit.
+1. Submit a [pull request].
+
+## Contributors
+
+[Christopher Dierkens]
